@@ -129,8 +129,17 @@ body {
   text-decoration: none;
 }
 
-.rounded-3 {
-  border-radius: 30px !important;
+.rounded-cus1 {
+  border-top-right-radius: 30px !important;
+  border-bottom-left-radius: 0px !important;
+  border-bottom-right-radius: 30px !important;
+  border-top-left-radius: 30px !important;
+}
+.rounded-cus2 {
+  border-top-right-radius: 30px !important;
+  border-bottom-left-radius: 30px !important;
+  border-bottom-right-radius: 0px !important;
+  border-top-left-radius: 30px !important;
 }
 
 .circle {
@@ -140,7 +149,7 @@ body {
 }
 .bg-img-service {
   position: relative;
-  background-image: url("../src/assets/img/shiny-crystal-citrine-gemjpeg");
+  background-image: url("../src/assets/img/shiny-crystal-citrine-gem.jpeg");
   object-fit: cover;
   background-position: 59% 21%;
 }
@@ -162,6 +171,12 @@ body {
   color: white;
   text-align: center;
 }
+.line-gray-border{
+  border-bottom: 2px solid #333333;
+}
+.sm-services h5{
+font-size: 1.1rem!important;
+}
 
 
 
@@ -181,16 +196,16 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.2);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
-  /* .img-div-pos{
-    top: 0 !important;
-    left: 59% !important;
+  .img-div-pos{
+    top: 15% !important;
+    /* left: 59% !important; */
     z-index: -99;
   }
   .img-div-pos img{
-    width: 371px!important;
+    width: 317px!important;
     height: 600px!important;
     object-fit: contain;
-  } */
+  }
 
   .display-1 {
     font-size: calc(1.625rem + 2vw);

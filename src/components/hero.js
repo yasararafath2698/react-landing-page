@@ -1,5 +1,5 @@
 import React from 'react'
-import Hero_bg from '../assets/img/hero-bg.jpg'
+import Hero_bg from '../assets/img/shiny-crystal-citrine-gem1.jpeg'
 import Client_logo from '../assets/img/layers.png'
 
 export default function Hero() {

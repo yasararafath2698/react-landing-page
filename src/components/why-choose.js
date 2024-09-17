@@ -12,7 +12,7 @@ export default function Choose() {
                 </div>
                 <div className='row mt-5'>
                     <div className='col-md-5'>
-                        <img src={Why_choose_1} className='rounded-3 w-100 object-fit-cover'></img>
+                        <img src={Why_choose_1} className='rounded-cus1 w-100 object-fit-cover'></img>
                     </div>
                     <div className='col-md-7'>
                         <div className='px-0 px-md-5'>
@@ -41,13 +41,13 @@ export default function Choose() {
                     </div>
                     <div className='col-md-5 order-1 order-md-2'>
                         <div className='px-0 px-md-5'>
-                            <img src={Why_choose_2} className='rounded-3 w-100 object-fit-cover'></img>
+                            <img src={Why_choose_2} className='rounded-cus2 w-100 object-fit-cover'></img>
                         </div>
                     </div>
                 </div>
                 <div className='row mt-5 pb-5'>
                     <div className='col-md-5'>
-                        <img src={Why_choose_3} className='rounded-3 w-100 object-fit-cover'></img>
+                        <img src={Why_choose_3} className='rounded-cus2 w-100 object-fit-cover'></img>
                     </div>
                     <div className='col-md-7'>
                         <div className='px-0 px-md-5'>

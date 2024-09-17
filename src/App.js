@@ -6,6 +6,7 @@ import Services from './components/services';
 import Footer from './components/footer';
 import Choose from './components/why-choose';
 import Counter_animation from './components/counter-animation';
+import Testimonial from './components/testimonial';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Services></Services>
       <Choose></Choose>
       <Counter_animation></Counter_animation>
+      <Testimonial></Testimonial>
       <Footer></Footer>
 
 
