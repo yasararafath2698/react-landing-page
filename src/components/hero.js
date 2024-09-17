@@ -5,7 +5,7 @@ import Client_logo from '../assets/img/layers.png'
 export default function Hero() {
     return (
         <section className='container hero-bg m-cus-mt'>
-            <div className='position-relative vh-100 w-100 '>
+            <div className='position-relative vh-100 w-100 mt-0 mt-md-5'>
                 <div className='position-absolute top-50 start-50 translate-middle img-div-pos'>
                     <img src={Hero_bg} alt='hero-bg' className='w-100' />
                 </div>
@@ -18,7 +18,7 @@ export default function Hero() {
                     </div>
                     <div className='mt-5 client_logo'>
                         <p className='text-uppercase trusted-label position-relative d-inline-block'>Trusted by thousand companies</p>
-                        <div className='logo_section p-3 d-flex flex-wrap gap-0 gap-md-4 justify-content-center mt-0 mt-md-5'>
+                        <div className='logo_section p-3 d-flex flex-wrap gap-0 gap-md-4 justify-content-center mt-0 mt-md-3'>
                             <img src={Client_logo}></img>
                             <img src={Client_logo}></img>
                             <img src={Client_logo}></img>

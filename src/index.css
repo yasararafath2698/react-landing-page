@@ -60,6 +60,12 @@ body {
 .logo_section img {
   max-width: 170px;
 }
+.bg-light-white{
+  background-color: #f9f9f9;
+}
+.rounded-5{
+  border-radius: 20px;
+}
 
 .service-md-card {
   background-color: #9eff00;
@@ -71,17 +77,17 @@ body {
 .btn-outline-primary {
   --bs-btn-color: #fff;
   --bs-btn-border-color: #333333;
-  --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #6abb00;
-  --bs-btn-hover-border-color: #6abb00;
+  --bs-btn-hover-color: #000;
+  --bs-btn-hover-bg: #9eff00;
+  --bs-btn-hover-border-color: #9eff00;
   --bs-btn-focus-shadow-rgb: 13, 110, 253;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #6abb00;
-  --bs-btn-active-border-color: #6abb00;
+  --bs-btn-active-bg: #9eff00;
+  --bs-btn-active-border-color: #9eff00;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #6abb00;
+  --bs-btn-disabled-color: #9eff00;
   --bs-btn-disabled-bg: transparent;
-  --bs-btn-disabled-border-color: #6abb00;
+  --bs-btn-disabled-border-color: #9eff00;
   --bs-gradient: none;
 }
 
@@ -176,6 +182,65 @@ body {
 }
 .sm-services h5{
 font-size: 1.1rem!important;
+}
+/* .img-div-pos{
+  top: 30% !important;
+} */
+
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 50%;
+  opacity: 1;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-control-prev {
+  left: -20px;
+}
+
+.carousel-control-next {
+  right: -20px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-image: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #333;
+}
+
+.carousel-control-prev-icon::before,
+.carousel-control-next-icon::before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-top: 2px solid #333;
+  border-right: 2px solid #333;
+}
+
+.carousel-control-prev-icon::before {
+  transform: rotate(-135deg);
+  margin-left: 5px;
+}
+
+.carousel-control-next-icon::before {
+  transform: rotate(45deg);
+  margin-right: 5px;
+}
+
+/* Hover effects */
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background-color: #f8f8f8;
 }
 
 

@@ -3,9 +3,9 @@ import Brand_logo from '../assets/img/brand-logo.png'
 
 export default function Header() {
   return (
-    <header className='container'>
-      <nav className="navbar navbar-expand-lg">
-        <div className="container-fluid">
+    <header className='fixed-top bg-black'>
+      <nav className="navbar navbar-expand-lg ">
+        <div className="container">
           <img src={Brand_logo} style={{ height: 50 }} alt='Logo' />
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <i class="bi bi-list txt-color p-1 px-2 menu-icon"></i>

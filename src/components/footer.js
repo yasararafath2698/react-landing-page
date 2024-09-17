@@ -16,7 +16,7 @@ export default function Footer() {
                             In the USA, UK, and Canada working with toptier clients, from start-ups to enterprises.</p>
                     </div>
                     <div className='col-md-3'>
-                        <h4 className='txt-color'>Our Services</h4>
+                        <h4 className='txt-color fw-bold h5'>Our Services</h4>
                         <ul className="navbar-nav mt-4">
                             <li className="nav-item">
                                 <a className="nav-link" href="">SEO Marketing</a>
@@ -33,7 +33,7 @@ export default function Footer() {
                         </ul>
                     </div>
                     <div className='col-md-3 mt-3 mt-md-0'>
-                        <h4 className='txt-color'>Our Location</h4>
+                        <h4 className='txt-color fw-bold h5'>Our Location</h4>
                         <ul className="navbar-nav mt-4">
                             <li className="nav-item">
                                 <a className="nav-link" href="">USA</a>
@@ -50,7 +50,7 @@ export default function Footer() {
                         </ul>
                     </div>
                     <div className='col-md-2 mt-3 mt-md-0'>
-                        <h4 className='txt-color'>Contact us</h4>
+                        <h4 className='txt-color fw-bold h5'>Contact us</h4>
                         <ul className="navbar-nav mt-4 mt-md-5 pt-sm-0 pt-md-3">
                             <li className="nav-item">
                             <a className="nav-link" href="mailto:info@kronix.com"><i class="bi bi-envelope-paper me-4"></i>info@kronix.com</a>
