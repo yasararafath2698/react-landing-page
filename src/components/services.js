@@ -1,5 +1,6 @@
 import React from 'react'
 import img from '../assets/img/SEO.png'
+import img1 from '../assets/img/SEO-mob.png'
 
 export default function Services() {
     return (
@@ -35,19 +36,26 @@ export default function Services() {
                     </a>
                 </div>
             </section>
-            <section className='d-block d-md-none'>
+            <section className='py-5 d-block d-md-none'>
                 <div className='container'>
-                    <div className='row'>
+                    <div className='bg-img-service d-flex flex-column justify-content-center py-5 px-3'>
+                        <h2 className='content'>Services</h2>
+                        <p className='content'>Strategic services drive digital success with tailored,
+                        comprehensive approaches</p>
+                    </div>
+                    <div className='row mt-4'>
                         <div className='col-sm-12'>
-                            <h6>SEO Marketing</h6>
-                            <p>Enhance your website’s visibility and rank higher
+                            <img src={img1} className='w-25'></img>
+                            <h5 className='d-inline ms-3'>SEO Marketing</h5>
+                            <p className='mt-3'>Enhance your website’s visibility and rank higher
                                 on search engines with our expert SEO services.
                                 We optimize your site’s content, structure, and
                                 performance to attract more organic traffic,
                                 ensuring your business stands out in search
                                 results</p>
-                                <a className='btn btn-primary w-100'>ReadMore</a>
+                            <a className='btn btn-primary w-100'>ReadMore</a>
                         </div>
+
                     </div>
                 </div>
             </section>
