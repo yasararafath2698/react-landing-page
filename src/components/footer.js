@@ -15,7 +15,7 @@ export default function Footer() {
                             tailored solutions to maximize ROI.
                             In the USA, UK, and Canada working with toptier clients, from start-ups to enterprises.</p>
                     </div>
-                    <div className='col-lg-3 col-md-6'>
+                    <div className='col-lg-3 col-md-6 ps-md-5 ps-lg-3'>
                         <h4 className='txt-color fw-bold h5'>Our Services</h4>
                         <ul className="navbar-nav mt-4">
                             <li className="nav-item">
@@ -32,7 +32,7 @@ export default function Footer() {
                             </li>
                         </ul>
                     </div>
-                    <div className='col-lg-3 col-md-6 mt-3 mt-md-0'>
+                    <div className='col-lg-3 col-md-6 mt-3 mt-md-0 '>
                         <h4 className='txt-color fw-bold h5'>Our Location</h4>
                         <ul className="navbar-nav mt-4">
                             <li className="nav-item">
@@ -49,17 +49,17 @@ export default function Footer() {
                             </li>
                         </ul>
                     </div>
-                    <div className='col-lg-2 col-md-6 mt-3 mt-md-0'>
+                    <div className='col-lg-2 col-md-6 mt-3 mt-md-0 ps-md-5 ps-lg-0'>
                         <h4 className='txt-color fw-bold h5'>Contact us</h4>
                         <ul className="navbar-nav mt-4 mt-md-5 pt-sm-0 pt-md-3">
                             <li className="nav-item">
-                            <a className="nav-link" href="mailto:info@kronix.com"><i class="bi bi-envelope-paper me-4"></i>info@kronix.com</a>
+                                <a className="nav-link" href="mailto:info@kronix.com"><i class="bi bi-envelope-paper me-4"></i>info@kronix.com</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="tel:(001) 1231 3435"><i class="bi bi-telephone me-4"></i>(001) 1231 3435</a>
                             </li>
                             <li className="nav-item social-icon mt-2">
-                            <a href="https://instagram.com" className="me-3 me-md-4">
+                                <a href="https://instagram.com" className="me-3 me-md-4">
                                     <i className="bi bi-linkedin"></i>
                                 </a>
                                 <a href="https://twitter.com" className="me-3 me-md-4">
@@ -71,7 +71,6 @@ export default function Footer() {
                                 <a href="https://instagram.com" className="me-3 me-md-4">
                                     <i className="bi bi-instagram"></i>
                                 </a>
-                               
                             </li>
                         </ul>
                     </div>
