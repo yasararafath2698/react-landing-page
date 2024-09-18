@@ -238,6 +238,9 @@ font-size: 1.1rem!important;
 .carousel-control-next:hover {
   background-color: #f8f8f8;
 }
+.img-div-pos{
+  top: 33%!important;
+}
 
 
 
@@ -259,7 +262,6 @@ font-size: 1.1rem!important;
   }
   .img-div-pos{
     top: 15% !important;
-    /* left: 59% !important; */
     z-index: -99;
   }
   .img-div-pos img{
