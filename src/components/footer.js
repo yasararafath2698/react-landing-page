@@ -6,7 +6,7 @@ export default function Footer() {
         <footer>
             <div className='container my-5'>
                 <div className='row'>
-                    <div className='col-md-4 px-3'>
+                    <div className='col-lg-4 col-md-6 px-3'>
                         <img src={Brand_logo} style={{ height: 50 }} alt='Logo' />
                         <p className='mt-3'>Click It - is a leading digital marketing agency
                             dedicated to driving success for businesses
@@ -15,7 +15,7 @@ export default function Footer() {
                             tailored solutions to maximize ROI.
                             In the USA, UK, and Canada working with toptier clients, from start-ups to enterprises.</p>
                     </div>
-                    <div className='col-md-3'>
+                    <div className='col-lg-3 col-md-6'>
                         <h4 className='txt-color fw-bold h5'>Our Services</h4>
                         <ul className="navbar-nav mt-4">
                             <li className="nav-item">
@@ -32,7 +32,7 @@ export default function Footer() {
                             </li>
                         </ul>
                     </div>
-                    <div className='col-md-3 mt-3 mt-md-0'>
+                    <div className='col-lg-3 col-md-6 mt-3 mt-md-0'>
                         <h4 className='txt-color fw-bold h5'>Our Location</h4>
                         <ul className="navbar-nav mt-4">
                             <li className="nav-item">
@@ -49,7 +49,7 @@ export default function Footer() {
                             </li>
                         </ul>
                     </div>
-                    <div className='col-md-2 mt-3 mt-md-0'>
+                    <div className='col-lg-2 col-md-6 mt-3 mt-md-0'>
                         <h4 className='txt-color fw-bold h5'>Contact us</h4>
                         <ul className="navbar-nav mt-4 mt-md-5 pt-sm-0 pt-md-3">
                             <li className="nav-item">

@@ -183,9 +183,6 @@ body {
 .sm-services h5{
 font-size: 1.1rem!important;
 }
-/* .img-div-pos{
-  top: 30% !important;
-} */
 
 
 .carousel-control-prev,
@@ -237,7 +234,6 @@ font-size: 1.1rem!important;
   margin-right: 5px;
 }
 
-/* Hover effects */
 .carousel-control-prev:hover,
 .carousel-control-next:hover {
   background-color: #f8f8f8;
