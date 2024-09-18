@@ -59,16 +59,16 @@ export default function Footer() {
                                 <a className="nav-link" href="tel:(001) 1231 3435"><i class="bi bi-telephone me-4"></i>(001) 1231 3435</a>
                             </li>
                             <li className="nav-item social-icon mt-2">
-                            <a href="https://instagram.com" className="m-2">
+                            <a href="https://instagram.com" className="me-3 me-md-4">
                                     <i className="bi bi-linkedin"></i>
                                 </a>
-                                <a href="https://twitter.com" className="m-2">
+                                <a href="https://twitter.com" className="me-3 me-md-4">
                                     <i className="bi bi-twitter"></i>
                                 </a>
-                                <a href="https://facebook.com" className="m-2">
+                                <a href="https://facebook.com" className="me-3 me-md-4">
                                     <i className="bi bi-facebook"></i>
                                 </a>
-                                <a href="https://instagram.com" className="m-2">
+                                <a href="https://instagram.com" className="me-3 me-md-4">
                                     <i className="bi bi-instagram"></i>
                                 </a>
                                

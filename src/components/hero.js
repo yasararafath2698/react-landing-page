@@ -18,13 +18,13 @@ export default function Hero() {
                     </div>
                     <div className='mt-5 client_logo'>
                         <p className='text-uppercase trusted-label position-relative d-inline-block'>Trusted by thousand companies</p>
-                        <div className='logo_section p-3 d-flex flex-wrap gap-0 gap-md-4 justify-content-center mt-0 mt-md-3'>
-                            <img src={Client_logo}></img>
-                            <img src={Client_logo}></img>
-                            <img src={Client_logo}></img>
-                            <img src={Client_logo}></img>
-                            <img src={Client_logo}></img>
-                            <img src={Client_logo}></img>
+                        <div className='logo_section p-0 p-md-3 d-flex flex-wrap gap-0 gap-md-4 justify-content-center mt-0 mt-md-3'>
+                            <img src={Client_logo} className='p-3 p-md-0'></img>
+                            <img src={Client_logo} className='p-3 p-md-0'></img>
+                            <img src={Client_logo} className='p-3 p-md-0'></img>
+                            <img src={Client_logo} className='p-3 p-md-0'></img>
+                            <img src={Client_logo} className='p-3 p-md-0'></img>
+                            <img src={Client_logo} className='p-3 p-md-0'></img>
                         </div>
                     </div>
                 </div>
